@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wake Up</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/nav.css">
+    <link rel="stylesheet" href="style/img.css">
+    <style>
+        html, body {
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <section class="logo-mobile">
+            <a href="index.html" class="logo-link">
+                <img src="img/logo.png" alt="" class="preto">
+            </a>
+        </section>
+        <section class="item">
+            <a href="index.html" class="home">Home</a>
+            <a href="calc.html" class="calculo">Calculo</a>
+            <a href="sobre.html" class="sobre">Sobre</a>
+        </section>
+    </nav>
+    <main>
+        <section class="calc">
+            <h1>Pagamento</h1>
+            <form action="" method="get" class="pagamento">
+                <p>
+                    <input type="radio" name="tipo" id="pix" value="1">
+                    <label for="tipo">Pix</label>
+                </p>
+                <p>
+                    <input type="radio" name="tipo" id="cdd" value="2">
+                    <label for="tipo">Cartão De Credito </label>
+                </p>
+                <p><label for="vezes">Parcelas:</label>
+                    <input type="number" name="vezes" id="vez" placeholder="12x" value="1" maxlength="5">
+                </p>
+            </form>
+            <form action="" method="get" id="comprar">
+                <button type="submit" id="sub">Reset</button>
+            </form>
+        </section>
+        <section class="produto">
+            <div class="p3 imgp"></div>
+
+            <div class="total">
+                <div class="info">
+                    <h1 id="precoi">Valor: 1.548,00</h1>
+                    <p class="pi">1548</p>
+                    <h1 id="descon">Desconto: 0.000,00</h1>
+                    <h1 id="acres">Acréscimo: 0.000,00</h1>
+                </div>
+                <div class="valorfinal">
+                    <div class="pa1">
+                        <h2>Total</h2>
+                    </div>
+                    <div class="pa2">
+                        <h2 class="tot">0.000,00</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="js/calculo.js"></script>
+</body>
+</html>
