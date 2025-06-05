@@ -28,7 +28,13 @@ nav {
     align-items: center;
     min-width: 200px;
     margin: 8px 0px 0px 40px;
-    padding: 0;
+    padding-bottom: 8px;
+    height: 100%;
+}
+
+.preto {
+    width: 140px;
+    height: 100%;
 }
 
 .item {
@@ -46,6 +52,6 @@ nav {
     color: #E8EEF2;
 }
 .item a:hover {
-    color: #421da7;
+    color: #46797a;
     transform: scale(1.1);
 }

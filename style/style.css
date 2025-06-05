@@ -21,11 +21,11 @@ html, body {
     max-zoom: 1;
 }
 body {
-    background: #080808 url(../img/fundo.jpg) center no-repeat fixed;
+    background: #080808 url(../img/fundo3.jpg) center no-repeat fixed;
     background-size: cover;
 }
 a:hover {
-    color: #421da7;
+    color: #46797a;
 }
 main {
     display: flex;
@@ -38,7 +38,7 @@ main {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 30px;
     width: 100%;
     height: 100%;
     padding-top: 130px;
@@ -50,10 +50,9 @@ main {
     justify-content: flex-start;
     align-items: flex-start;
     background: #080808;
-    width: 200px;
-    height: 250px;
+    width: 300px;
+    height: 320px;
     border-radius: 15px;
-    /* box-shadow: 4px 4px 8px #000000da; */
 }
 .prod:hover {
     transform: scale(1.1);
@@ -64,12 +63,12 @@ main {
     height: 70%;
 }
 .prod h1 {
-    font-size: .8em;
+    font-size: 1em;
     margin: 15px 20px 0px 20px;
     color: #E8EEF2;
 }
 .prod p {
-    font-size: .7em;
+    font-size: .9em;
     margin: 10px 20px 0px 20px;
     color: #E8EEF2;
 }
@@ -80,7 +79,7 @@ main {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    border: 3px solid #421da7;
+    border: 3px solid #46797a;
     width: auto;
     height: auto;
     margin: auto;
@@ -113,7 +112,7 @@ main {
     transform: scale(1.3);
 }
 input[type='radio']:checked {
-    accent-color: #421da7;
+    accent-color: #46797a;
 }
 label {
     color: #080808;
@@ -140,10 +139,14 @@ label {
     color: #E8EEF2;
     margin-top: 50px;
     border-radius: 10px;
-    border: 3px solid #421da7;
+    border: 3px solid #46797a;
     padding: 10px;
     cursor: pointer;
     width: 35%;
+}
+#sub:hover {
+    transform: scale(.9);
+    color: #46797a;
 }
 #comprar {
     display: flex;

@@ -7,7 +7,7 @@
     background-size: cover;
 }
 .p3 {
-    background: #080808 url(../img/amp.jpg) bottom no-repeat;
+    background: #080808 url(../img/amp.jpg) center no-repeat;
     background-size: cover;
 }
 .p4 {
@@ -19,7 +19,7 @@
     background-size: cover;
 }
 .p6 {
-    background: #080808 url(../img/bass5c.jpg) bottom no-repeat;
+    background: #080808 url(../img/bass5c.jpg) center no-repeat;
     background-size: cover;
 }
 .p7 {
@@ -27,14 +27,14 @@
     background-size: cover;
 }
 .p8 {
-    background: #080808 url(../img/bateria.png) bottom no-repeat;
+    background: #080808 url(../img/bateria.png) center no-repeat;
     background-size: cover;
 }
 .p9 {
-    background: #080808 url(../img/teclado.png) bottom no-repeat;
+    background: #080808 url(../img/teclado.png) center no-repeat;
     background-size: cover;
 }
 .p10 {
-    background: #080808 url(../img/capo.png) bottom no-repeat;
+    background: #080808 url(../img/capo.png) center no-repeat;
     background-size: cover;
 }
